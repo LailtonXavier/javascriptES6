@@ -1,0 +1,11 @@
+Webpack (Boilerplate)
+
+    copiando e colocando os arquivos
+
+    precisamos reinstalar o mode
+        npm install
+
+
+Modulos são arquivos 
+export = podemos exporta uma função, classe, variavel, ou todos de uma vez
+

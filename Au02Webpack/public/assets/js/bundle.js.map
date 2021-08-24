@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://au02webpack/./src/index.js"],"names":["alert","console","log"],"mappings":"AAAAA,MAAM,aAGNC,QAAQC,IAAI","file":"bundle.js","sourcesContent":["alert('ola mundo')\r\n// 1\r\n//2\r\nconsole.log(23);"],"sourceRoot":""}

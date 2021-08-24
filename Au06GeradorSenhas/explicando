@@ -1,0 +1,7 @@
+    instalando um loader css
+
+    npm install style-loader css-loader
+
+    na pasta main.js, importar o arquivo css 
+
+    depois, no terminal: npm run dev, pra rodar

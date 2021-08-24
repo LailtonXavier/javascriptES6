@@ -1,0 +1,11 @@
+    SEMPRE OLHE ESSA PASTA
+
+    Os navegadores tem sempre algo que n suporta
+
+    Importando algumas coisas para resolver esse erro
+
+    dentro do main.js
+        - core-js/stable;
+        - regenerator-runtime/runtime;
+        
+

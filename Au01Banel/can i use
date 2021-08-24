@@ -1,0 +1,26 @@
+
+    o Babel é tradutor e copilador de codigo...
+    transpirador, n vamos utilizar, sera o webpack
+    Mas vamos utilizar o webpack
+
+    npm para instalar o babel ou peckt
+    no terminal
+    npm init -y
+    npm install --save-dev @babel/cli @babel/preset-env @babel/core
+
+    mudar para codigo antigo
+    npx babel main.js -o bundle.js --presets=@babel/env
+
+    depois no packge.json criar um codigo para salva automatico
+    "babel": "babel main.js -o bundle.js --presets=@babel/env -w"
+
+    e terminal colocar pra rodar
+    npm run babel
+
+    quando fizer altareção
+    crt + c para Parar e depois roda outra vez
+
+    verificar se posso usar?
+    https://caniuse.com/?search=class
+
+

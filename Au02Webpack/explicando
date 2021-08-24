@@ -1,0 +1,65 @@
+Webpack (Boilerplate)
+
+Essa é a forma mais recente e melhor de fazer
+
+- a configuração é muito grande, dai vamos fazer UM MODELO  e sempre que usar, é so organizalo
+    mudar algumas coisas e tal.
+
+- Ler documentação webpack
+https://webpack.js.org/concepts/
+
+        STAR    
+
+terminal:
+    npm init    =   ele vai te perguntar isso tudo
+    npmi init -y, ja fazia isso tudo
+
+
+    Vamos instalar o Webpack
+
+    O QUE É ISSO TUDO FEITO, DEPOIS DE PRONTO
+        ele pega nossos arquivos atuais, seria nossa
+        pasta de entrada e saira no output os arquivos
+        convertidos, antigos ou seja, seria os arquivos 
+        para rodar em qualquer navegador
+
+    instal === i msm coisas
+    npm i --save-dev @babel/preset-env @babel/cli @babel/core babel-loader webpack webpack-cli regenerator-runtime core-js@2
+
+    n precisa decorar isso aqui
+
+    criando um arquivo, webpack.config.js
+
+    dentro do webpack.config.js
+    pegar um path do nolde
+
+
+    src    =    source, codigo fonte de nossos programas
+    teremos outra pagina publica3
+
+    public = vai ter tudo publico
+
+    Por fim
+     no package.json
+      "scripts": {
+    "gera": "webpack -w"
+  },
+   ele vai ficar assistindo
+    
+    npm run gera = pra rodar
+    
+    ( so linux = timeout 30 npm run gera  =  vai rodar por 30 segundos)
+
+    modo: devenlope e modo production
+
+    correção atualizando 
+
+    npm i core-js regenerator-runtime
+
+    deixar o core e regenerator como dependecies
+
+    Para pode usar como template, devemos apagar a pasto Node_modules
+
+    
+    
+
